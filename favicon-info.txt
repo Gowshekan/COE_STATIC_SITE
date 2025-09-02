@@ -1,0 +1,6 @@
+<!-- Add this to the <head> section of index.html for favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%232563eb'/><text x='50' y='58' font-family='Arial, sans-serif' font-size='24' font-weight='bold' text-anchor='middle' fill='white'>SECE</text></svg>">
+
+<!-- Alternative PNG favicon if needed -->
+<!-- You can replace this with your actual college logo -->
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==">

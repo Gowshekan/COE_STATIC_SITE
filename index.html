@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Centre of Excellence - Sri Eshwar College of Engineering</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%232563eb'/><text x='50' y='58' font-family='Arial, sans-serif' font-size='24' font-weight='bold' text-anchor='middle' fill='white'>SECE</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="cloud-icon">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <div class="loading-text">Loading Cloud COE</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-college-logo">
+                    <img src="College Logo.png" alt="Sri Eshwar College of Engineering Logo" class="nav-logo-img">
+                </div>
+                <div class="nav-logo">
+                    <i class="fas fa-cloud"></i>
+                    <span>Cloud COE</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#platforms" class="nav-link">Platforms</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-clouds">
+                <div class="cloud cloud1"><i class="fas fa-cloud"></i></div>
+                <div class="cloud cloud2"><i class="fas fa-cloud"></i></div>
+                <div class="cloud cloud3"><i class="fas fa-cloud"></i></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Cloud Computing Centre of Excellence</h1>
+            <h2 class="hero-subtitle">Sri Eshwar College of Engineering</h2>
+            <p class="hero-description">
+                Pioneering the future of cloud technology through innovation, research, and excellence in education.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('about')">
+                    <i class="fas fa-rocket"></i> Explore More
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Cloud Computing</h2>
+                <p class="section-description">
+                    Discover the power of cloud technology and its transformative impact on modern computing
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>What is Cloud Computing?</h3>
+                    <p>Cloud computing is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Accessibility</h3>
+                    <p>Access your applications and data from anywhere in the world with an internet connection. Cloud computing enables global collaboration and remote work capabilities.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Enhanced Security</h3>
+                    <p>Enterprise-grade security with advanced encryption, backup solutions, and disaster recovery capabilities to protect your valuable data and applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cloud Services</h2>
+                <p class="section-description">
+                    Comprehensive cloud solutions for modern businesses and organizations
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Infrastructure as a Service (IaaS)</h3>
+                    <p>Virtualized computing resources over the internet including virtual machines, storage, and networking components.</p>
+                    <ul>
+                        <li>Virtual Machines</li>
+                        <li>Storage Solutions</li>
+                        <li>Network Infrastructure</li>
+                        <li>Load Balancers</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Platform as a Service (PaaS)</h3>
+                    <p>Complete development and deployment environment in the cloud with resources for application lifecycle.</p>
+                    <ul>
+                        <li>Development Tools</li>
+                        <li>Database Management</li>
+                        <li>Business Analytics</li>
+                        <li>Operating Systems</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Software as a Service (SaaS)</h3>
+                    <p>Software applications delivered over the internet, on-demand and typically on a subscription basis.</p>
+                    <ul>
+                        <li>Email Services</li>
+                        <li>Office Applications</li>
+                        <li>CRM Systems</li>
+                        <li>Collaboration Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cloud Platforms Section -->
+    <section id="platforms" class="platforms">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Major Cloud Platforms</h2>
+                <p class="section-description">
+                    Leading cloud service providers powering digital transformation worldwide
+                </p>
+            </div>
+            <div class="platforms-grid">
+                <div class="platform-card">
+                    <div class="platform-logo aws">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>Amazon Web Services</h3>
+                    <p>The world's most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services.</p>
+                    <div class="platform-features">
+                        <span class="feature-tag">EC2</span>
+                        <span class="feature-tag">S3</span>
+                        <span class="feature-tag">Lambda</span>
+                        <span class="feature-tag">RDS</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="platform-logo azure">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h3>Microsoft Azure</h3>
+                    <p>Microsoft's cloud computing platform providing a range of cloud services for building, deploying, and managing applications.</p>
+                    <div class="platform-features">
+                        <span class="feature-tag">Virtual Machines</span>
+                        <span class="feature-tag">App Service</span>
+                        <span class="feature-tag">SQL Database</span>
+                        <span class="feature-tag">Active Directory</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="platform-logo gcp">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h3>Google Cloud Platform</h3>
+                    <p>Google's suite of cloud computing services offering computing, data storage, data analytics and machine learning.</p>
+                    <div class="platform-features">
+                        <span class="feature-tag">Compute Engine</span>
+                        <span class="feature-tag">Cloud Storage</span>
+                        <span class="feature-tag">BigQuery</span>
+                        <span class="feature-tag">Kubernetes</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="platform-logo ibm">
+                        <i class="fab fa-cloudversify"></i>
+                    </div>
+                    <h3>IBM Cloud</h3>
+                    <p>Enterprise-focused cloud platform with AI-powered tools and advanced security for mission-critical workloads.</p>
+                    <div class="platform-features">
+                        <span class="feature-tag">Watson AI</span>
+                        <span class="feature-tag">Red Hat</span>
+                        <span class="feature-tag">Blockchain</span>
+                        <span class="feature-tag">Quantum</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="platform-logo oracle">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Oracle Cloud</h3>
+                    <p>Comprehensive cloud infrastructure and platform services with autonomous database technology.</p>
+                    <div class="platform-features">
+                        <span class="feature-tag">Autonomous DB</span>
+                        <span class="feature-tag">OCI Compute</span>
+                        <span class="feature-tag">Analytics</span>
+                        <span class="feature-tag">Security</span>
+                    </div>
+                </div>
+                <div class="platform-card">
+                    <div class="platform-logo alibaba">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Alibaba Cloud</h3>
+                    <p>Leading cloud provider in Asia-Pacific, offering comprehensive cloud computing and AI services.</p>
+                    <div class="platform-features">
+                        <span class="feature-tag">ECS</span>
+                        <span class="feature-tag">OSS</span>
+                        <span class="feature-tag">MaxCompute</span>
+                        <span class="feature-tag">AI Services</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="94">0</div>
+                    <div class="stat-label">% of enterprises use cloud</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="60">0</div>
+                    <div class="stat-label">% cost reduction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">+ cloud services available</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99.9">0</div>
+                    <div class="stat-label">% uptime guarantee</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    Connect with our Cloud Computing Centre of Excellence
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Sri Eshwar College of Engineering</h3>
+                            <p>Cloud Computing Centre of Excellence</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p>Kinathukadavu, Coimbatore - 641 202<br>Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>cloudcoe@srieshwar.ac.in</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 4259 30 8000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cloud"></i>
+                        <span>Cloud COE</span>
+                    </div>
+                    <p>Empowering the future through cloud computing excellence and innovation.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#platforms">Platforms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Cloud Services</h3>
+                    <ul>
+                        <li><a href="#">Infrastructure (IaaS)</a></li>
+                        <li><a href="#">Platform (PaaS)</a></li>
+                        <li><a href="#">Software (SaaS)</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info-footer">
+                        <p><i class="fas fa-envelope"></i> cloudcoe@srieshwar.ac.in</p>
+                        <p><i class="fas fa-phone"></i> +91 4259 30 8000</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Coimbatore, Tamil Nadu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cloud Computing Centre of Excellence - Sri Eshwar College of Engineering. All rights reserved.</p>
+                <p class="developers-credit">Developed by <strong>Dharaneesh R S</strong> and <strong>Gowshekan A V R</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
